@@ -1,4 +1,5 @@
 public class LinearAlgebra {
+     //parte do Enzo
      public static Matrix dot(Matrix a, Matrix b) 
         if (a.getCols() != b.getRows()) {
             System.out.println("Erro: A quantidade de colunas da primeira matriz deve ser igual à quantidade de linhas da segunda matriz.");
@@ -105,7 +106,6 @@ public class LinearAlgebra {
 
         return new Matrix(rows, 1, solElements);
     }
-//parte do Enzo
     public static void main(String[] args) {
         //os testes aq
  System.out.println("--- Teste do Método: dot (Multiplicação) ---");
